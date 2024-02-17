@@ -38,6 +38,6 @@ resource "azurerm_resource_group" "rg" {
     name     = "tcs-rg"
     location = "eastus"
     tags      = {
-        Environment = "Terraform Demo"
+        Environment = "Terraform Demo123"
     }
 }
